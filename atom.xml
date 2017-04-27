@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>疯丫头</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://sculpturetime.top/"/>
+  <updated>2017-04-17T13:10:36.537Z</updated>
+  <id>http://sculpturetime.top/</id>
+  
+  <author>
+    <name>Grace</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于Tomcat的一点小问题</title>
+    <link href="http://sculpturetime.top/2017/04/28/Tomcat/"/>
+    <id>http://sculpturetime.top/2017/04/28/Tomcat/</id>
+    <published>2017-04-27T16:21:19.567Z</published>
+    <updated>2017-04-17T13:10:36.537Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;今天啊，抽风，去掉了Tomcat安装目录的空格&lt;/strong&gt;，然后打开Eclipse，发现tomcat无法启动了，这我就纳闷了，百度了一下，也没找到原因。后面看到了这样的一条解答：    &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;1.在Eclipse中，Windo
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>累......</title>
+    <link href="http://sculpturetime.top/2017/04/28/tired/"/>
+    <id>http://sculpturetime.top/2017/04/28/tired/</id>
+    <published>2017-04-27T16:21:19.561Z</published>
+    <updated>2017-04-05T14:52:14.344Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;累到变形&lt;/strong&gt;&lt;br&gt;好吧，其实主要是心累，今天为我们的博客又换了个主题，各项功能依旧不完善，发现自己知道的太少，不懂得太多，特别是php代码，完全看不懂啊！！！（委屈）评论功能仍然没有弄成功，其实这是我最想要的功能，即便这个要用第三方软件才可以
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>清明这几天</title>
+    <link href="http://sculpturetime.top/2017/04/28/these_days/"/>
+    <id>http://sculpturetime.top/2017/04/28/these_days/</id>
+    <published>2017-04-27T16:21:19.555Z</published>
+    <updated>2017-04-04T05:38:25.091Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;清明这几天，过得依旧浑浑噩噩的，丽丽回家了两天，小菀也回家了两天。第一天的时候，原本说要和丽丽一起出去踏青的，结果因为资金问题（我真的穷得不能再穷），没能去成。那天我一个人在寝室，说来也奇怪，当只有我一个人在寝室的时候，我什么也不想干，感觉做什么都没有动力，然而当所有人都在
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>忙碌且悠闲的一天</title>
+    <link href="http://sculpturetime.top/2017/04/28/justeat/"/>
+    <id>http://sculpturetime.top/2017/04/28/justeat/</id>
+    <published>2017-04-27T16:21:19.550Z</published>
+    <updated>2017-03-23T15:56:00.755Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;  &lt;strong&gt;最近乍暖还寒，该吃的吃了，不该吃的也吃了，我长了的肉也即将藏不住了。&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;  学校的桃花开了，小碗说周末去龙泉看桃花，我也想去，然而因为钱的缘故，总是要纠结一下。爱买东西的习惯怎么也改不了，即便知道买了就吃土，想要控制却根
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://sculpturetime.top/2017/04/28/get_my_domain_name/"/>
+    <id>http://sculpturetime.top/2017/04/28/get_my_domain_name/</id>
+    <published>2017-04-27T16:21:19.544Z</published>
+    <updated>2017-04-04T08:26:54.664Z</updated>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;h2 id=&quot;title-域名终于解析好咯&quot;&gt;&lt;a href=&quot;#title-域名终于解析好咯&quot; class=&quot;headerlink&quot; title=&quot;title: 域名终于解析好咯&quot;&gt;&lt;/a&gt;title: 域名终于解析好咯&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;其实域名解析也
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>开通博客的第一天</title>
+    <link href="http://sculpturetime.top/2017/04/28/firstday/"/>
+    <id>http://sculpturetime.top/2017/04/28/firstday/</id>
+    <published>2017-04-27T16:21:19.538Z</published>
+    <updated>2017-03-23T15:54:09.119Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;  这是开通博客的&lt;strong&gt;第一天&lt;/strong&gt;，折腾了很久，也参考了很多资料，费尽心思总算是可以访问了。&lt;br&gt;域名解析这一步还没有完成，还在审核，期待着审核好的那一天。从现在开始这个博客就成为我们几个疯丫头的专属博客了，之所以要弄这个博客，是为了记录我们的生活
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>遇到了一个狂热的追求者</title>
+    <link href="http://sculpturetime.top/2017/04/28/en/"/>
+    <id>http://sculpturetime.top/2017/04/28/en/</id>
+    <published>2017-04-27T16:21:19.532Z</published>
+    <updated>2017-04-04T07:48:16.908Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天上概率论课的时候，我正在收作业，小菀正在低头发呆，这时一个男生过来敲了敲小菀的桌子。我还以为那个男生是她同学，来找她来着，结果她一脸尴尬地看着他，于是我忽然明白了什么。想起有一天:&lt;br&gt;小菀：有天有个男生叫我下去拿东西，我说我不&lt;br&gt;我：那个男生是谁啊？&lt;br&gt;小菀
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>忙碌的一天</title>
+    <link href="http://sculpturetime.top/2017/04/28/busyday/"/>
+    <id>http://sculpturetime.top/2017/04/28/busyday/</id>
+    <published>2017-04-27T16:21:19.526Z</published>
+    <updated>2017-04-04T06:58:20.568Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;看不成桃花，画不成画，唱不成歌，蓝瘦&lt;/strong&gt;&lt;br&gt;今天上马克思课的时候，李赛飞放了一个关于东北地区九十年代国企改革的视频，看了其实感触蛮大，也觉得挺心酸的。那些曾经辉煌而自豪的国企工人，如今大多都变成了失落者，活得痛苦而狼狈。怎么确定自己在社会中
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
