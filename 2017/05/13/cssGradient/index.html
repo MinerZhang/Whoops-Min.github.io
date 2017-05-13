@@ -94,20 +94,23 @@
 
 <meta name="description" content="title: 关于css渐变
 categories: 技术做网页的时候想让网页元素更加精致一些，于是用到了css渐变，然而并不是很熟练，所以总结一下  如何使用css创建主流浏览器支持的渐变：IE，Firefox 3.6+，Safari，Chrome。  
-##1. 针对Webkit内核浏览器下面的代码支持webkit内核的浏览器，如Safari，Chrome等，它将显示一个从顶部（#000）到">
+
+1. 针对Webkit内核浏览器下面的代码支持webkit内核的浏览器，如Safari，Chrome等，它将显示一个从顶部（#000）到底">
 <meta property="og:type" content="article">
 <meta property="og:title" content="疯丫头">
 <meta property="og:url" content="http://sculpturetime.top/2017/05/13/cssGradient/index.html">
 <meta property="og:site_name" content="疯丫头">
 <meta property="og:description" content="title: 关于css渐变
 categories: 技术做网页的时候想让网页元素更加精致一些，于是用到了css渐变，然而并不是很熟练，所以总结一下  如何使用css创建主流浏览器支持的渐变：IE，Firefox 3.6+，Safari，Chrome。  
-##1. 针对Webkit内核浏览器下面的代码支持webkit内核的浏览器，如Safari，Chrome等，它将显示一个从顶部（#000）到">
-<meta property="og:updated_time" content="2017-05-13T07:36:52.309Z">
+
+1. 针对Webkit内核浏览器下面的代码支持webkit内核的浏览器，如Safari，Chrome等，它将显示一个从顶部（#000）到底">
+<meta property="og:updated_time" content="2017-05-13T07:45:44.115Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="疯丫头">
 <meta name="twitter:description" content="title: 关于css渐变
 categories: 技术做网页的时候想让网页元素更加精致一些，于是用到了css渐变，然而并不是很熟练，所以总结一下  如何使用css创建主流浏览器支持的渐变：IE，Firefox 3.6+，Safari，Chrome。  
-##1. 针对Webkit内核浏览器下面的代码支持webkit内核的浏览器，如Safari，Chrome等，它将显示一个从顶部（#000）到">
+
+1. 针对Webkit内核浏览器下面的代码支持webkit内核的浏览器，如Safari，Chrome等，它将显示一个从顶部（#000）到底">
 
 
 
@@ -392,13 +395,18 @@ var _hmt = _hmt || [];
         <hr>
 <p>title: 关于css渐变</p>
 <h2 id="categories-技术"><a href="#categories-技术" class="headerlink" title="categories: 技术"></a>categories: 技术</h2><p><strong>做网页的时候想让网页元素更加精致一些，于是用到了css渐变，然而并不是很熟练，所以总结一下  如何使用css创建主流浏览器支持的渐变：IE，Firefox 3.6+，Safari，Chrome。</strong>  </p>
-<p>##<br><strong>1. 针对Webkit内核浏览器</strong><br>下面的代码支持webkit内核的浏览器，如Safari，Chrome等，它将显示一个从顶部（#000）到底部（#fff）的线性渐变<br><code>background:-webkit-gradient(linear,left top,left bottom,from(#000),to(#fff));</code><br>arg0:渐变类型<br>arg1:渐变开始点x：left，y：top<br>arg2:渐变结束点x：left，y：bottom<br>arg3:from(#000)为渐变起始颜色<br>arg4:to(#fff)渐变结束颜色  </p>
-<p>##<br><strong>2.针对Firefox 3.6+内核浏览器</strong><br><code>background:-moz-linear-gradient(top,#000,#fff);</code><br>其中linear表示渐变类型，渐变类型有:linear,radial,linear为线性渐变，即直线渐变，而radial是径向渐变，即圆形渐变（从起点到终点颜色从内到外进行圆形渐变）。<br>arg0:渐变方向，可以用“角度”或“英文”表示 </p>
+<hr>
+<p><strong>1. 针对Webkit内核浏览器</strong><br>下面的代码支持webkit内核的浏览器，如Safari，Chrome等，它将显示一个从顶部（#000）到底部（#fff）的线性渐变<br><code>background:-webkit-gradient(linear,left top,left bottom,from(#000),to(#fff));</code><br>arg0:渐变类型<br>arg1:渐变开始点x：left，y：top<br>arg2:渐变结束点x：left，y：bottom<br>arg3:from(#000)为渐变起始颜色<br>arg4:to(#fff)渐变结束颜色  </p>
+<hr>
+<p><strong>2.针对Firefox 3.6+内核浏览器</strong><br><code>background:-moz-linear-gradient(top,#000,#fff);</code><br>其中linear表示渐变类型，渐变类型有:linear,radial,linear为线性渐变，即直线渐变，而radial是径向渐变，即圆形渐变（从起点到终点颜色从内到外进行圆形渐变）。<br>arg0:渐变方向，可以用“角度”或“英文”表示 </p>
 <blockquote>
 <p>0deg | top：从下到上<br>90deg | right：从左向右<br>270deg | left：从右向左<br>180deg | bottom：从上到下<br>top left：从右下到左上<br>top right：从左下到右上<br>第一个参数省略时，默认为“180deg”,相当于“bottom”。  </p>
-<p>##<br><strong>3.针对IE浏览器</strong><br>IE浏览器不支持css渐变，只能用滤镜来实现类似的效果<br><code>filter：progid:DXImageTransform.Microsoft.gradient(startColorstr=&quot;#000&quot;,endColorstr=&quot;#fff&quot;,gradientType=&quot;0&quot;);</code><br>arg0:渐变起始颜色<br>arg1:渐变结束颜色<br>arg2:渐变方向，其“0”表示垂直渐变，“1”为水平渐变  </p>
-<p>##<br><strong>css渐变跨浏览器演示</strong><br>将下面的几行代码放在一起，可以实现一个跨浏览器的渐变框，注意并不是所有的浏览器都支持渐变，所以最上面一行代码为不支持该属性的浏览器添加了一个背景色。<br><code>background:grey;</code><br><code>background:-webkit-gradient(linear,left top,left bottom,from(#000),to(#000));</code><br><code>background:-moz-linear-gradient(top,#000,#fff);</code><br><code>filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=&quot;#000&quot;,endColorstr=&quot;#fff&quot;,gradientType=&quot;0&quot;);</code> </p>
-<h2 id=""><a href="#" class="headerlink" title=" "></a> </h2><p><strong>并不是所有浏览器都支持css渐变，所以在编写代码时不应该依赖于它，仅用来增强布局。</strong></p>
+<hr>
+<p><strong>3.针对IE浏览器</strong><br>IE浏览器不支持css渐变，只能用滤镜来实现类似的效果<br><code>filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=&quot;#000&quot;,endColorstr=&quot;#fff&quot;,gradientType=&quot;0&quot;);</code><br>arg0:渐变起始颜色<br>arg1:渐变结束颜色<br>arg2:渐变方向，其“0”表示垂直渐变，“1”为水平渐变  </p>
+<hr>
+<p><strong>css渐变跨浏览器演示</strong><br>将下面的几行代码放在一起，可以实现一个跨浏览器的渐变框，注意并不是所有的浏览器都支持渐变，所以最上面一行代码为不支持该属性的浏览器添加了一个背景色。<br><code>background:grey;</code><br><code>background:-webkit-gradient(linear,left top,left bottom,from(#000),to(#000));</code><br><code>background:-moz-linear-gradient(top,#000,#fff);</code><br><code>filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=&quot;#000&quot;,endColorstr=&quot;#fff&quot;,gradientType=&quot;0&quot;);</code> </p>
+<hr>
+<p><strong>并不是所有浏览器都支持css渐变，所以在编写代码时不应该依赖于它，仅用来增强布局。</strong></p>
 </blockquote>
 
       
@@ -457,8 +465,8 @@ var _hmt = _hmt || [];
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/04/28/Tomcat/" rel="next" title="关于Tomcat的一点小问题">
-                <i class="fa fa-chevron-left"></i> 关于Tomcat的一点小问题
+              <a href="/2017/04/28/Tomcat/" rel="next" title="">
+                <i class="fa fa-chevron-left"></i> 
               </a>
             
           </div>
@@ -551,7 +559,7 @@ var _hmt = _hmt || [];
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -615,7 +623,7 @@ var _hmt = _hmt || [];
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#categories-技术"><span class="nav-number">1.</span> <span class="nav-text">categories: 技术</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#"><span class="nav-number">2.</span> <span class="nav-text"> </span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#categories-技术"><span class="nav-number">1.</span> <span class="nav-text">categories: 技术</span></a></li></ol></div>
             
 
           </div>
