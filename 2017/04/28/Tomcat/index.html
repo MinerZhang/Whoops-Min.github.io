@@ -93,21 +93,18 @@
 
 
 <meta name="description" content="今天啊，抽风，去掉了Tomcat安装目录的空格，然后打开Eclipse，发现tomcat无法启动了，这我就纳闷了，百度了一下，也没找到原因。后面看到了这样的一条解答：    
-1.在Eclipse中，Window--&amp;gt;preference --&amp;gt; servers --&amp;gt; runtime --&amp;gt; environments --&amp;gt; 全部删除
-　　    2.Add--&amp;g">
+1.在Eclipse中，Window–&amp;gt;preference –servers –runtime –environments –全部删除2.Add–&amp;gt;Browse–&amp;gt;选择本地tomcat文件夹所在位置–&amp;g">
 <meta property="og:type" content="article">
 <meta property="og:title" content="关于Tomcat的一点小问题">
 <meta property="og:url" content="http://sculpturetime.top/2017/04/28/Tomcat/index.html">
 <meta property="og:site_name" content="疯丫头">
 <meta property="og:description" content="今天啊，抽风，去掉了Tomcat安装目录的空格，然后打开Eclipse，发现tomcat无法启动了，这我就纳闷了，百度了一下，也没找到原因。后面看到了这样的一条解答：    
-1.在Eclipse中，Window--&amp;gt;preference --&amp;gt; servers --&amp;gt; runtime --&amp;gt; environments --&amp;gt; 全部删除
-　　    2.Add--&amp;g">
-<meta property="og:updated_time" content="2017-04-27T19:49:22.037Z">
+1.在Eclipse中，Window–&amp;gt;preference –servers –runtime –environments –全部删除2.Add–&amp;gt;Browse–&amp;gt;选择本地tomcat文件夹所在位置–&amp;g">
+<meta property="og:updated_time" content="2017-05-13T07:36:12.598Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="关于Tomcat的一点小问题">
 <meta name="twitter:description" content="今天啊，抽风，去掉了Tomcat安装目录的空格，然后打开Eclipse，发现tomcat无法启动了，这我就纳闷了，百度了一下，也没找到原因。后面看到了这样的一条解答：    
-1.在Eclipse中，Window--&amp;gt;preference --&amp;gt; servers --&amp;gt; runtime --&amp;gt; environments --&amp;gt; 全部删除
-　　    2.Add--&amp;g">
+1.在Eclipse中，Window–&amp;gt;preference –servers –runtime –environments –全部删除2.Add–&amp;gt;Browse–&amp;gt;选择本地tomcat文件夹所在位置–&amp;g">
 
 
 
@@ -412,9 +409,8 @@ var _hmt = _hmt || [];
 
       
         <p><strong>今天啊，抽风，去掉了Tomcat安装目录的空格</strong>，然后打开Eclipse，发现tomcat无法启动了，这我就纳闷了，百度了一下，也没找到原因。后面看到了这样的一条解答：    </p>
-<pre><code>1.在Eclipse中，Window--&gt;preference --&gt; servers --&gt; runtime --&gt; environments --&gt; 全部删除
-　　    2.Add--&gt;Browse--&gt;选择本地tomcat文件夹所在位置--&gt;确定 --&gt; finish--&gt;OK  
-</code></pre><p>试了一下，果真没有问题了。<br>然后又打开浏览器，输入：<a href="https://localhost:8080/,无法访问，这又是什么原因？？？我实在是想不通，又去捣鼓tomcat的安装包，在Tomcat的bin目录下并没有发现startup.bat批处理文件，？？？这又是为什么？然后又百度了一下，意识到我的tomcat是安装版的，安装版的是没有startup.bat文件的，直接运行tomcat7.exe就可以启动了，然而问题又来了，tomcat启动时闪退，也就意味着根本没有启动成功！这就很尴尬了噻，我苦思冥想，不得其解。我又启动tomcat7w.exe，发现仍无法启动，tomcat的状态为stopped，这是吧我突然想起tomcat的目录名称改了，于是去在tomcat7w里将tomcat的路径全部改了一下，然后保存，重启。我想应该没有问题了吧。打开浏览器，仍无法访问，dos控制台里报出错误，检查一下，网址写成了https://localhost:8080,将s去掉，访问成功！原来是tomcat所支持的协议是http，所以不能写成https了。好了，遇到了一点小问题，所幸解决了！" target="_blank" rel="external">https://localhost:8080/,无法访问，这又是什么原因？？？我实在是想不通，又去捣鼓tomcat的安装包，在Tomcat的bin目录下并没有发现startup.bat批处理文件，？？？这又是为什么？然后又百度了一下，意识到我的tomcat是安装版的，安装版的是没有startup.bat文件的，直接运行tomcat7.exe就可以启动了，然而问题又来了，tomcat启动时闪退，也就意味着根本没有启动成功！这就很尴尬了噻，我苦思冥想，不得其解。我又启动tomcat7w.exe，发现仍无法启动，tomcat的状态为stopped，这是吧我突然想起tomcat的目录名称改了，于是去在tomcat7w里将tomcat的路径全部改了一下，然后保存，重启。我想应该没有问题了吧。打开浏览器，仍无法访问，dos控制台里报出错误，检查一下，网址写成了https://localhost:8080,将s去掉，访问成功！原来是tomcat所支持的协议是http，所以不能写成https了。好了，遇到了一点小问题，所幸解决了！</a></p>
+<p>1.在Eclipse中，Window–&gt;preference –servers –runtime –environments –全部删除<br>2.Add–&gt;Browse–&gt;选择本地tomcat文件夹所在位置–&gt;确定 –finish–&gt;OK  </p>
+<p>试了一下，果真没有问题了。<br>然后又打开浏览器，输入：<a href="https://localhost:8080,无法访问，这又是什么原因？？？我实在是想不通，又去捣鼓tomcat的安装包，在Tomcat的bin目录下并没有发现startup.bat批处理文件，？？？这又是为什么？然后又百度了一下，意识到我的tomcat是安装版的，安装版的是没有startup.bat文件的，直接运行tomcat7.exe就可以启动了，然而问题又来了，tomcat启动时闪退，也就意味着根本没有启动成功！这就很尴尬了噻，我苦思冥想，不得其解。我又启动tomcat7w.exe，发现仍无法启动，tomcat的状态为stopped，这是吧我突然想起tomcat的目录名称改了，于是去在tomcat7w里将tomcat的路径全部改了一下，然后保存，重启。我想应该没有问题了吧。打开浏览器，仍无法访问，dos控制台里报出错误，检查一下，网址写成了https://localhost:8080,将s去掉，访问成功！原来是tomcat所支持的协议是http，所以不能写成https了。好了，遇到了一点小问题，所幸解决了！" target="_blank" rel="external">https://localhost:8080,无法访问，这又是什么原因？？？我实在是想不通，又去捣鼓tomcat的安装包，在Tomcat的bin目录下并没有发现startup.bat批处理文件，？？？这又是为什么？然后又百度了一下，意识到我的tomcat是安装版的，安装版的是没有startup.bat文件的，直接运行tomcat7.exe就可以启动了，然而问题又来了，tomcat启动时闪退，也就意味着根本没有启动成功！这就很尴尬了噻，我苦思冥想，不得其解。我又启动tomcat7w.exe，发现仍无法启动，tomcat的状态为stopped，这是吧我突然想起tomcat的目录名称改了，于是去在tomcat7w里将tomcat的路径全部改了一下，然后保存，重启。我想应该没有问题了吧。打开浏览器，仍无法访问，dos控制台里报出错误，检查一下，网址写成了https://localhost:8080,将s去掉，访问成功！原来是tomcat所支持的协议是http，所以不能写成https了。好了，遇到了一点小问题，所幸解决了！</a></p>
 
       
     </div>
@@ -429,6 +425,27 @@ var _hmt = _hmt || [];
     <div>
       
         
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div>����ԭ����������������֧�ֽ������Ҽ���������</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="http://on9x58k9q.bkt.clouddn.com/wechat.jpg" alt="Grace WeChat Pay"/>
+          <p>微信打赏</p>
+        </div>
+      
+      
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="http://on9x58k9q.bkt.clouddn.com/alipay.jpg" alt="Grace Alipay"/>
+          <p>支付宝打赏</p>
+        </div>
+      
+    </div>
+  </div>
+
 
       
     </div>
@@ -460,6 +477,10 @@ var _hmt = _hmt || [];
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/05/13/cssGradient/" rel="prev" title="">
+                 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -525,7 +546,7 @@ var _hmt = _hmt || [];
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">8</span>
+                <span class="site-state-item-count">9</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -882,6 +903,21 @@ var _hmt = _hmt || [];
 
 
   
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
 
   
 
